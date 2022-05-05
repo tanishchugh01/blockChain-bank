@@ -9,4 +9,6 @@ module.exports = {
       port: 7545
     }
   },
+  contract_directory: "./src/constracts/",
+  // contract_build_directory: "./src/truffle/truffle_abis/",
 };

@@ -1,0 +1,307 @@
+{
+    "contractName": "Tether",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "decimals",
+            "outputs": [
+                {
+                    "internalType": "uint8",
+                    "name": "",
+                    "type": "uint8"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "name",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "symbol",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "totalSupply",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"e:/KHAZAANA/BlockChain/truffle/bank2/contracts/Tether.sol\":\"Tether\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"e:/KHAZAANA/BlockChain/truffle/bank2/contracts/Tether.sol\":{\"keccak256\":\"0x684da6e1511ec359646e0df92aa86bd25af6dedcdf462212bf7fc2535b4ad7c0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ffe0febf77dc1cf66b76d4fad9b1a032cd49890455099861161ccf9f23a0f485\",\"dweb:/ipfs/QmQxxUdmeUKn4LQMbxJ4AyZR3fkAxq57rHYiYurd2WfDsj\"]}},\"version\":1}",
+    "bytecode": "60c060405260066080819052652a32ba3432b960d11b60a0908152610027916000919061007f565b50604080518082019091526004808252631554d11560e21b60209092019182526100539160019161007f565b50670de0b6b3a76400006002556003805460ff1916601217905534801561007957600080fd5b50610152565b82805461008b90610118565b90600052602060002090601f0160209004810192826100ad57600085556100f3565b82601f106100c657805160ff19168380011785556100f3565b828001600101855582156100f3579182015b828111156100f35782518255916020019190600101906100d8565b506100ff929150610103565b5090565b5b808211156100ff5760008155600101610104565b600181811c9082168061012c57607f821691505b60208210810361014c57634e487b7160e01b600052602260045260246000fd5b50919050565b61020d806101616000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806306fdde031461005157806318160ddd1461006f578063313ce5671461008657806395d89b41146100a5575b600080fd5b6100596100ad565b6040516100669190610148565b60405180910390f35b61007860025481565b604051908152602001610066565b6003546100939060ff1681565b60405160ff9091168152602001610066565b61005961013b565b600080546100ba9061019d565b80601f01602080910402602001604051908101604052809291908181526020018280546100e69061019d565b80156101335780601f1061010857610100808354040283529160200191610133565b820191906000526020600020905b81548152906001019060200180831161011657829003601f168201915b505050505081565b600180546100ba9061019d565b600060208083528351808285015260005b8181101561017557858101830151858201604001528201610159565b81811115610187576000604083870101525b50601f01601f1916929092016040019392505050565b600181811c908216806101b157607f821691505b6020821081036101d157634e487b7160e01b600052602260045260246000fd5b5091905056fea2646970667358221220dfe87cd1aa4749a8c4bd18503353e89faf406366437f80dd4e8ab7bb59402f3764736f6c634300080d0033",
+    "deployedBytecode": "608060405234801561001057600080fd5b506004361061004c5760003560e01c806306fdde031461005157806318160ddd1461006f578063313ce5671461008657806395d89b41146100a5575b600080fd5b6100596100ad565b6040516100669190610148565b60405180910390f35b61007860025481565b604051908152602001610066565b6003546100939060ff1681565b60405160ff9091168152602001610066565b61005961013b565b600080546100ba9061019d565b80601f01602080910402602001604051908101604052809291908181526020018280546100e69061019d565b80156101335780601f1061010857610100808354040283529160200191610133565b820191906000526020600020905b81548152906001019060200180831161011657829003601f168201915b505050505081565b600180546100ba9061019d565b600060208083528351808285015260005b8181101561017557858101830151858201604001528201610159565b81811115610187576000604083870101525b50601f01601f1916929092016040019392505050565b600181811c908216806101b157607f821691505b6020821081036101d157634e487b7160e01b600052602260045260246000fd5b5091905056fea2646970667358221220dfe87cd1aa4749a8c4bd18503353e89faf406366437f80dd4e8ab7bb59402f3764736f6c634300080d0033",
+    "sourceMap": "83:29:0:-:0;62:179;83:29;;62:179;83:29;;;-1:-1:-1;;;83:29:0;;;;;;-1:-1:-1;;83:29:0;;:::i;:::-;-1:-1:-1;117:29:0;;;;;;;;;;;;;-1:-1:-1;;;117:29:0;;;;;;;;;;;;:::i;:::-;-1:-1:-1;180:19:0;151:48;;204:25;;;-1:-1:-1;;204:25:0;227:2;204:25;;;62:179;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;62:179:0;;;-1:-1:-1;62:179:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;14:380:1;93:1;89:12;;;;136;;;157:61;;211:4;203:6;199:17;189:27;;157:61;264:2;256:6;253:14;233:18;230:38;227:161;;310:10;305:3;301:20;298:1;291:31;345:4;342:1;335:15;373:4;370:1;363:15;227:161;;14:380;;;:::o;:::-;62:179:0;;;;;;",
+    "deployedSourceMap": "62:179:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;83:29;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;151:48;;;;;;;;;762:25:1;;;750:2;735:18;151:48:0;616:177:1;204:25:0;;;;;;;;;;;;970:4:1;958:17;;;940:36;;928:2;913:18;204:25:0;798:184:1;117:29:0;;;:::i;83:::-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;117:::-;;;;;;;:::i;14:597:1:-;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;452:6;449:1;446:13;443:91;;;522:1;517:2;508:6;497:9;493:22;489:31;482:42;443:91;-1:-1:-1;595:2:1;574:15;-1:-1:-1;;570:29:1;555:45;;;;602:2;551:54;;14:597;-1:-1:-1;;;14:597:1:o;987:380::-;1066:1;1062:12;;;;1109;;;1130:61;;1184:4;1176:6;1172:17;1162:27;;1130:61;1237:2;1229:6;1226:14;1206:18;1203:38;1200:161;;1283:10;1278:3;1274:20;1271:1;1264:31;1318:4;1315:1;1308:15;1346:4;1343:1;1336:15;1200:161;;987:380;;;:::o",
+    "sourcePath": "e:/KHAZAANA/BlockChain/truffle/bank2/contracts/Tether.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.13+commit.abaa5c0e"
+    },
+    "ast": {
+        "absolutePath": "e:/KHAZAANA/BlockChain/truffle/bank2/contracts/Tether.sol",
+        "exportedSymbols": {
+            "Tether": [
+                14
+            ]
+        },
+        "id": 15,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".21"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:25:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Tether",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 14,
+                "linearizedBaseContracts": [
+                    14
+                ],
+                "name": "Tether",
+                "nameLocation": "71:6:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "06fdde03",
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "name",
+                        "nameLocation": "97:4:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 14,
+                        "src": "83:29:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "83:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "546574686572",
+                            "id": 3,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "104:8:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_45f896bda5b8a6d39d1cf69805dd31bad808b4d67d4ee8108f51059e0e5ab8a8",
+                                "typeString": "literal_string \"Tether\""
+                            },
+                            "value": "Tether"
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "95d89b41",
+                        "id": 7,
+                        "mutability": "mutable",
+                        "name": "symbol",
+                        "nameLocation": "131:6:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 14,
+                        "src": "117:29:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 5,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "117:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "55534454",
+                            "id": 6,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "140:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+                                "typeString": "literal_string \"USDT\""
+                            },
+                            "value": "USDT"
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "18160ddd",
+                        "id": 10,
+                        "mutability": "mutable",
+                        "name": "totalSupply",
+                        "nameLocation": "166:11:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 14,
+                        "src": "151:48:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 8,
+                            "name": "uint256",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "151:7:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "31303030303030303030303030303030303030",
+                            "id": 9,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "180:19:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                                "typeString": "int_const 1000000000000000000"
+                            },
+                            "value": "1000000000000000000"
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "313ce567",
+                        "id": 13,
+                        "mutability": "mutable",
+                        "name": "decimals",
+                        "nameLocation": "217:8:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 14,
+                        "src": "204:25:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
+                        },
+                        "typeName": {
+                            "id": 11,
+                            "name": "uint8",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "204:5:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint8",
+                                "typeString": "uint8"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "3138",
+                            "id": 12,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "227:2:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_rational_18_by_1",
+                                "typeString": "int_const 18"
+                            },
+                            "value": "18"
+                        },
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 15,
+                "src": "62:179:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "33:208:0"
+    },
+    "functionHashes": {
+        "decimals()": "313ce567",
+        "name()": "06fdde03",
+        "symbol()": "95d89b41",
+        "totalSupply()": "18160ddd"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "105000",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "decimals()": "2335",
+            "name()": "infinite",
+            "symbol()": "infinite",
+            "totalSupply()": "2295"
+        }
+    }
+}
